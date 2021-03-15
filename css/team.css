@@ -1,0 +1,111 @@
+* {
+    font-family: DM Sans;
+}
+
+.team-header {
+    margin-top: 360px;
+    height: calc(100vh - 300px);
+}
+
+.team-h1 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 97.2%;
+    /* or 58px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+}
+
+.team-p {
+    /* Heading-2 */
+    margin-top: 10px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 117%;
+    /* or 37px */
+
+    letter-spacing: -0.03em;
+
+    color: #606060;
+}
+
+
+/****************************member*****************************/
+
+
+.absolute {
+    display: grid;
+}
+
+.each-member {
+    margin-top: 150px;
+    border-bottom: 2px solid black;
+}
+
+.team-img {
+    margin-bottom: 50px;
+    float: right;
+}
+
+.member-h5 {
+    margin-top: 15px;
+}
+
+.member-p{
+    margin-top: 20px;
+}
+
+.fab {
+    font-size: 30px;
+}
+
+.fa-facebook-f:hover {
+    transition-duration: 300ms;
+    color:#4267B2;
+}
+
+.fa-twitter:hover {
+    transition-duration: 300ms;
+    color:#1DA1F2;
+}
+
+.fa-linkedin-in:hover {
+    transition-duration: 300ms;
+    color:#2867B2;
+}
+
+.fa-instagram:hover {
+    transition-duration: 300ms;
+    color:#F56040;
+}
+
+.fa-github:hover {
+    transition-duration: 300ms;
+    color:#AD5C51;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.text {
+    align-self: start;
+}
+.social-media {
+    display: flex;
+    align-self: end;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+li{
+    list-style-type: disc;
+}
